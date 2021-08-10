@@ -1,5 +1,11 @@
-import React from 'react';
+import React, {memo} from 'react';
 
-const App = () => <></>;
+import Navigation from './navigation';
 
-export default App;
+const App = () => (
+  <>
+    <Navigation />
+  </>
+);
+
+export default memo(App);
